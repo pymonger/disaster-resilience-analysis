@@ -18,6 +18,15 @@
    ```
    source activate cutter
    ```
+   If you run into this error:
+   ```
+   CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+   ```
+   Initialize your shell first then activate your environment:
+   ```
+   conda init $(basename $SHELL)
+   source activate cutter
+   ```
 1. To deactivate the environment:
    ```
    conda deactivate

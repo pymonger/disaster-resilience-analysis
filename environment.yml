@@ -3,12 +3,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - astropy=3.1.1
-  - gdal=2.4.0
-  - geojson=2.4.1
-  - geopandas=0.4.0
-  - ipyleaflet=0.9.2
-  - jupyter_contrib_nbextensions=0.5.1
-  - krb5=1.16.3
-  - libgdal=2.4.0
-  - netcdf4=1.4.2
+  - astropy>=3.1.1
+  - gdal>=2.4.0
+  - geojson>=2.4.1
+  - geopandas>=0.4.0
+  - ipyleaflet>=0.9.2
+  - jupyter_contrib_nbextensions>=0.5.1
+  - krb5>=1.16.3
+  - libgdal>=2.4.0
+  - netcdf4>=1.4.2
