@@ -1,7 +1,6 @@
 # cutter
 
 ## Requirements
-
 1. Install anaconda3 (https://www.continuum.io/downloads)
 1. Install GEOS Framework (http://www.kyngchaos.com/software:frameworks). On Mac, install using http://www.kyngchaos.com/files/software/frameworks/GEOS_Framework-3.6.1-1.dmg.
 1. Clone repository:
@@ -14,7 +13,13 @@
    conda env create
    ```
    This will create an conda environment as specified by the `environment.yml` config file.
-1. Activate environment:
+1. Export environment variable for GDAL. Add the following line to your shell profile (e.g. `~/.bash_profile`):
+   ```
+   export GDAL_DATA=$(gdal-config --datadir)
+   ```
+
+## Working with the anaconda environment
+* To activate the environment:
    ```
    source activate cutter
    ```
@@ -27,11 +32,21 @@
    conda init $(basename $SHELL)
    source activate cutter
    ```
-1. To deactivate the environment:
+* To deactivate the environment:
    ```
    conda deactivate
    ```
-1. To remove the environment entirely:
+* To remove the environment entirely:
    ```
    conda env remove --name cutter
+   ```
+
+## Run jupyter notebooks
+1. Activate the environment:
+   ```
+   source activate cutter
+   ```
+1. Run jupyter:
+   ```
+   jupyter notebook
    ```
