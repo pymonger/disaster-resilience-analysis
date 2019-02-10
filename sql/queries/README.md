@@ -1,1 +1,1 @@
-# SQL Files for Individual Indices
+# SQL queries used to generate results
