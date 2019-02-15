@@ -41,7 +41,7 @@
    conda env remove --name cutter
    ```
 
-## Run jupyter notebooks
+## Getting Started
 1. Activate the environment:
    ```
    source activate cutter
@@ -50,3 +50,4 @@
    ```
    jupyter notebook
    ```
+1. A browser will open up showing the contents of this repository. Click on the `01-Getting_Started.ipynb` notebook and run through it.
