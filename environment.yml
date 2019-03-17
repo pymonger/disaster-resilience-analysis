@@ -12,3 +12,4 @@ dependencies:
   - krb5>=1.16.3
   - libgdal>=2.4.0
   - netcdf4>=1.4.2
+  - fastcluster=1.1.25=py37h1702cab_1000
