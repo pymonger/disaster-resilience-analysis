@@ -51,3 +51,5 @@
    jupyter notebook
    ```
 1. A browser will open up showing the contents of this repository. Click on the `01-Getting_Started.ipynb` notebook and run through it.
+1. Next, run through the `02-Community_Case_Studies.ipynb` notebook.
+1. Finally, run through the `03-Indicator_Relationships.ipynb` notebook.
